@@ -1,0 +1,38 @@
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ENTRENADORES</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js"></script>
+</head>
+<body>
+    <div id="app">
+        <div class="container">
+            <h1>ENTRENADORES POKEMON LISTOS PARA LA BATALLA</h1>
+            <div id="trainers-container">
+                <div v-for="trainer in trainers" :key="trainer.id" class="trainer-card">
+                    <img :src="trainer.image" :alt="trainer.name" class="trainer-image">
+                    <h3>{{ trainer.name }}</h3>
+                    <button @click="selectTrainer(trainer)"
+                            :disabled="isSelected(trainer)"
+                            :class="{ 'selected-button': isSelected(trainer) }">
+                        {{ isSelected(trainer) ? 'Seleccionado' : 'Seleccionar para combate' }}
+                    </button>
+                    <ul v-if="trainer.showPokemons" class="pokemon-list">
+                        <li v-for="pokemon in trainer.pokemons" :key="pokemon.name">
+                            <img :src="pokemon.image" :alt="pokemon.name" class="pokemon-image">
+                            <p>{{ pokemon.name }}</p>
+                        </li>
+                    </ul>
+                    <button @click="togglePokemons(trainer)" class="toggle-button">
+                        {{ trainer.showPokemons ? 'Ocultar Pokémon' : 'Mostrar Pokémon' }}
+                    </button>
+                </div>
+            </div>
+            <button id="new-battle-button" @click="startBattle">Iniciar Batalla</button>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

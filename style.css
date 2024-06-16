@@ -1,0 +1,130 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+#trainers-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.trainer-card {
+    width: 30%;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #e6f7e2; /* Cambiado a un tono de verde claro */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    text-align: center;
+}
+
+.trainer-card img.trainer-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.trainer-card h3 {
+    margin: 10px 0;
+    color: #333;
+}
+
+.trainer-card button {
+    background-color: #28a745; /* Verde principal */
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    width: 100%;
+}
+
+.trainer-card button:hover {
+    background-color: #218838; /* Verde más oscuro al hacer hover */
+}
+
+.trainer-card button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+.trainer-card .pokemon-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.trainer-card .pokemon-list li {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.trainer-card .pokemon-list li img.pokemon-image {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.toggle-button {
+    background-color: #218838; /* Color verde para el botón de toggle */
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    width: 100%;
+}
+
+.toggle-button:hover {
+    background-color: #1e7e34; /* Verde más oscuro al hacer hover */
+}
+
+#new-battle-button {
+    background-color: #c82333; /* Rojo oscuro */
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    display: block;
+    margin: 20px auto;
+}
+
+#new-battle-button:hover {
+    background-color: #bd2130; /* Rojo más oscuro al hacer hover */
+}
+
+.selected-button {
+    background-color: #dc3545 !important;
+}
+
+@media (max-width: 768px) {
+    .trainer-card {
+        width: 48%;
+    }
+}

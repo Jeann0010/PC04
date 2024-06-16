@@ -1,0 +1,183 @@
+[
+    
+    { 
+      "id": 1, 
+      "name": "Misty", 
+      "image": "images/entrenadores/misty.png",
+      "pokemons": [
+        { "name": "Chespin", "image": "images/chespin.png" },
+        { "name": "Bunnelby", "image": "images/bunnelby.png" },
+        { "name": "Heliolisk", "image": "images/heliolisk.png" },
+        { "name": "Togepi", "image": "images/togepi.png" },
+        { "name": "Corsola", "image": "images/corsola.png" }
+      ] 
+    },
+    { 
+      "id": 2, 
+      "name": "KOGA", 
+      "image": "images/entrenadores/koga.png",
+      "pokemons": [
+      
+
+        { "name": "Starmie", "image": "images/starmie.png" },
+        { "name": "Psyduck", "image": "images/psyduck.png" },
+        { "name": "Gyarados", "image": "images/gyarados.png" },
+        { "name": "Luxray", "image": "images/luxray.png" },
+        { "name": "Magnemite", "image": "images/magnemite.png" }
+      ] 
+    },
+    { 
+      "id": 3, 
+      "name": "surge", 
+      "image": "images/entrenadores/surge.png",
+      "pokemons": [
+        { "name": "Tsareena", "image": "images/tsareena.png" },
+        { "name": "Shiinotic", "image": "images/shiinotic.png" },
+        { "name": "Trevenant", "image": "images/trevenant.png" },
+        { "name": "Charizard", "image": "images/charizard.png" },
+        { "name": "Lurantis", "image": "images/lurantis.png" }
+      ] 
+    },
+    { 
+      "id": 4, 
+      "name": "Brock", 
+      "image": "images/entrenadores/brock.png",
+      "pokemons": [
+        { "name": "Blastoise", "image": "images/blastoise.png" },
+        { "name": "Arcanine", "image": "images/arcanine.png" },
+        { "name": "Nidoking", "image": "images/nidoking.png" },
+        { "name": "Onix", "image": "images/onix.png" },
+        { "name": "Geodude", "image": "images/geodude.png" }
+       
+      ] 
+    },
+    { 
+      "id": 5, 
+      "name": "Gary Oak", 
+      "image": "images/entrenadores/gary.png",
+      "pokemons": [
+       
+
+        { "name": "Crobat", "image": "images/crobat.png" },
+        { "name": "Steelix", "image": "images/steelix.png" },
+        { "name": "Ludicolo", "image": "images/ludicolo.png" },
+        { "name": "Electivire", "image": "images/electivire.png" },
+        { "name": "Umbreon", "image": "images/umbreon.png" }
+      ] 
+    },
+    { 
+      "id": 6, 
+      "name": "AGATHA", 
+      "image": "images/entrenadores/agatha.png",
+      "pokemons": [
+        { "name": "Blaziken", "image": "images/blaziken.png" },
+        { "name": "Beautifly", "image": "images/beautifly.png" },
+        { "name": "Skitty", "image": "images/skitty.png" },
+        { "name": "Venusaur", "image": "images/venusaur.png" },
+        { "name": "Glaceon", "image": "images/glaceon.png" }
+      ] 
+    },
+    { 
+      "id": 7, 
+      "name": "Ash Ketchum", 
+      "image": "images/entrenadores/ash.png",
+      "pokemons": [
+        { "name": "Pikachu", "image": "images/pikachu.png" },
+        { "name": "Bulbasaur", "image": "images/bulbasaur.png" },
+        { "name": "Charizard", "image": "images/charizard.png" },
+        { "name": "Squirtle", "image": "images/squirtle.png" },
+        { "name": "Butterfree", "image": "images/butterfree.png" }
+      ] 
+    },
+    { 
+      "id": 8, 
+      "name": "BLAINE", 
+      "image": "images/entrenadores/blaine.png",
+      "pokemons": [
+       
+        { "name": "Braixen", "image": "images/braixen.png" },
+        { "name": "Pancham", "image": "images/pancham.png" },
+        { "name": "Sylveon", "image": "images/sylveon.png" },
+        { "name": "Mamoswine", "image": "images/mamoswine.png" },
+        { "name": "Quilava", "image": "images/quilava.png" }
+      ] 
+    },
+    
+    { 
+      "id": 9, 
+      "name": "ERIKA", 
+      "image": "images/entrenadores/erika.png",
+      "pokemons": [
+        
+
+        { "name": "Piplup", "image": "images/piplup.png" },
+        { "name": "Buneary", "image": "images/buneary.png" },
+        { "name": "Pachirisu", "image": "images/pachirisu.png" },
+        { "name": "Jigglypuff", "image": "images/jigglypuff.jpg" },
+        { "name": "Butterfree", "image": "images/butterfree.png" }
+      ] 
+    },
+    
+    
+    { 
+      "id": 10, 
+      "name": "LANCE", 
+      "image": "images/entrenadores/lance.png",
+      "pokemons": [
+        { "name": "Lucario", "image": "images/lucario.webp" },
+        { "name": "Machamp", "image": "images/machamp.png" },
+        { "name": "Mienshao", "image": "images/mienshao.png" },
+        { "name": "Sylveon", "image": "images/sylveon.png" },
+        { "name": "Hariyama", "image": "images/hariyama.png" }
+      ] 
+    },
+    { 
+      "id": 11, 
+      "name": "BRUNO", 
+      "image": "images/entrenadores/bruno.png",
+      "pokemons": [
+        { "name": "Haxorus", "image": "images/haxorus.png" },
+        { "name": "Excadrill", "image": "images/excadrill.png" },
+        { "name": "Dragonite", "image": "images/dragonite.png" },
+        { "name": "Emolga", "image": "images/emolga.png" },
+        { "name": "Garchomp", "image": "images/garchomp.png" }
+      ] 
+    },
+    { 
+      "id": 12, 
+      "name": "LORELEI", 
+      "image": "images/entrenadores/lorelei.png",
+      "pokemons": [
+        { "name": "Togedemaru", "image": "images/togedemaru.png" },
+        { "name": "Vikavolt", "image": "images/vikavolt.png" },
+        { "name": "Metang", "image": "images/metang.png" },
+        { "name": "Rotom", "image": "images/rotom.png" },
+        { "name": "Charjabug", "image": "images/charjabug.png" }
+      ] 
+    },
+    { 
+      "id": 13, 
+      "name": "Giovanny", 
+      "image": "images/entrenadores/giovanni.png",
+      "pokemons": [
+        { "name": "Pansage", "image": "images/pansage.png" },
+        { "name": "Crustle", "image": "images/crustle.png" },
+        { "name": "Stunfisk", "image": "images/stunfisk.png" },
+        { "name": "Charizard", "image": "images/charizard.png" },
+        { "name": "Bellsprout", "image": "images/bellsprout.png" }
+      ] 
+    },
+    
+    { 
+      "id": 14, 
+      "name": "SABRINA", 
+      "image": "images/entrenadores/sabrina.png",
+      "pokemons": [
+        { "name": "Primarina", "image": "images/primarina.png" },
+        { "name": "Lanturn", "image": "images/lanturn.png" },
+        { "name": "Araquanid", "image": "images/araquanid.png" },
+        { "name": "Corsola", "image": "images/corsola.png" },
+        { "name": "Marill", "image": "images/marill.png" }
+      ]
+    }
+]
