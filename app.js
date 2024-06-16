@@ -3,7 +3,7 @@ new Vue({
     data: {
         trainers: [],
         selectedTrainers: [],
-        battleStarted: false // Nuevo dato para controlar si la batalla ha comenzado
+        battleStarted: false 
     },
     created() {
         fetch('compe.json')
@@ -31,7 +31,7 @@ new Vue({
         },
         startBattle() {
             if (this.selectedTrainers.length === 2) {
-                // Mostrar información de la batalla
+                
                 this.battleStarted = true;
                 this.selectedTrainers = [];
             }

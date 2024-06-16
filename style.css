@@ -30,7 +30,7 @@ h1 {
     width: 30%;
     margin-bottom: 20px;
     padding: 10px;
-    background-color: #e6f7e2; /* Cambiado a un tono de verde claro */
+    background-color: #e6f7e2;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     border-radius: 5px;
     text-align: center;
@@ -49,7 +49,7 @@ h1 {
 }
 
 .trainer-card button {
-    background-color: #28a745; /* Verde principal */
+    background-color: #28a745; 
     color: #fff;
     border: none;
     padding: 8px 16px;
@@ -61,7 +61,7 @@ h1 {
 }
 
 .trainer-card button:hover {
-    background-color: #218838; /* Verde más oscuro al hacer hover */
+    background-color: #218838; 
 }
 
 .trainer-card button:disabled {
@@ -87,7 +87,7 @@ h1 {
 }
 
 .toggle-button {
-    background-color: #218838; /* Color verde para el botón de toggle */
+    background-color: #218838; 
     color: #fff;
     border: none;
     padding: 8px 16px;
@@ -99,11 +99,11 @@ h1 {
 }
 
 .toggle-button:hover {
-    background-color: #1e7e34; /* Verde más oscuro al hacer hover */
+    background-color: #1e7e34; 
 }
 
 #new-battle-button {
-    background-color: #c82333; /* Rojo oscuro */
+    background-color: #c82333; 
     color: #fff;
     border: none;
     padding: 10px 20px;
@@ -116,7 +116,7 @@ h1 {
 }
 
 #new-battle-button:hover {
-    background-color: #bd2130; /* Rojo más oscuro al hacer hover */
+    background-color: #bd2130; 
 }
 
 .selected-button {
